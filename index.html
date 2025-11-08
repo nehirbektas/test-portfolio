@@ -1,10 +1,68 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-    <title>Test Başarılı</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nehir Bektas | Portfolio Preview</title>
+    
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+       
+        :root {
+            --bg-light-pink: #FEE7F2; 
+        }
+       
+        body {
+            background-color: var(--bg-light-pink);
+            font-family: 'Inter', sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            padding: 20px;
+        }
+    </style>
 </head>
 <body>
-    <h1>NEHIRBEKTAS.DEV TEST SAYFASI CALISIYOR!</h1>
-    <p>Tebrikler, hosting ve domain baglantisi basarili!</p>
+    
+    <div class="w-full max-w-md p-8 bg-white rounded-xl shadow-2xl border border-gray-100">
+        
+        
+        <h1 class="text-3xl font-extrabold text-gray-900 mb-6 border-b pb-3 text-center">
+            Portfolio Profile
+        </h1>
+
+       
+        <div class="space-y-4">
+            
+            <div class="flex justify-between items-center py-2 border-b border-gray-100">
+                <span class="text-lg font-bold text-gray-900">Name:</span>
+                <span class="text-lg text-black font-semibold">Nehir BEKTAŞ</span>
+            </div>
+
+            
+            <div class="flex justify-between items-center py-2 border-b border-gray-100">
+                <span class="text-lg font-bold text-gray-900">Age:</span>
+                <span class="text-lg text-black font-semibold">20</span>
+            </div>
+
+           
+            <div class="py-2 border-b border-gray-100">
+                <span class="text-lg font-bold text-gray-900 block mb-1">Education:</span>
+                <p class="text-black font-semibold pl-4">Istanbul Topkapi University</p>
+            </div>
+
+            
+            <div class="py-2">
+                <span class="text-lg font-bold text-gray-900 block mb-1">Department:</span>
+                <p class="text-black font-semibold pl-4">Management Information Systems (MIS)</p>
+            </div>
+        </div>
+        
+       
+        <div class="mt-8 pt-4 border-t text-center text-sm text-gray-500">
+            <p>This page is hosted on <a href="https://www.netlify.com/" class="text-indigo-600 hover:underline" target="_blank">Netlify</a> using a custom domain (<a href="https://nehirbektas.dev" class="text-indigo-600 hover:underline">nehirbektas.dev</a>).</p>
+        </div>
+    </div>
 </body>
 </html>
